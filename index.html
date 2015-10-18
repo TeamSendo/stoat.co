@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Sun Oct 18 2015 10:54:00 GMT+0000 (UTC) -->
+<html data-wf-site="562309155ff4c43b472e94c9" data-wf-page="56230916e08d363b47568403">
+<head>
+  <meta charset="utf-8">
+  <title>Stoat</title>
+  <meta name="description" content="Sen is your personal assistant and the world's smartest stoat.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/stoat.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Lekton:regular,italic,700","Raleway:100,200,300,regular,500,600,700,800,900","Just Another Hand:regular"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/artwork.png">
+  <link rel="apple-touch-icon" href="images/artwork.png">
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-53838527-12'], ['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script');
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <style type="text/css">
+    @media screen and (min-width: 1200px) {
+        .w-container {
+          max-width: 1170px;
+        }
+      }
+  </style>
+  <style>
+    .w-slider-nav-invert>div.w-active {
+        background-color: #3c8dc5; !important
+    }
+  </style>
+</head>
+<body>
+  <div class="loading">
+    <div class="loading-gif"><img class="gif" width="60" src="images/loader.GIF"><img width="150" src="images/logo-3.png" data-ix="from-bottom-load">
+    </div>
+  </div>
+  <header class="w-section banner" id="home">
+    <div class="w-hidden-medium w-hidden-small w-hidden-tiny top-wrapper">
+      <div class="w-container w-hidden-medium w-hidden-small w-hidden-tiny container-brand">
+        <div class="w-row">
+          <div class="w-col w-col-1 w-hidden-medium w-hidden-small w-hidden-tiny">
+            <a class="w-inline-block brand-logo" href="#">
+              <img width="178" src="images/iconsActive@3x.png">
+            </a>
+          </div>
+          <div class="w-col w-col-11 col-left">
+          </div>
+        </div>
+        <div class="gradient-divider"></div>
+      </div>
+    </div>
+    <div class="w-nav w-hidden-main navbar-mobile" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+      <div class="w-container w-hidden-main">
+        <a class="w-nav-brand brand-logo" href="#"><img width="50" src="images/iconsActive.png">
+        </a>
+        <nav class="w-nav-menu nav-menu" role="navigation"><a class="w-nav-link nav-link" href="#home">Home</a><a class="w-nav-link nav-link" href="#about">About</a><a class="w-nav-link nav-link" href="#contact">Contact</a>
+        </nav>
+        <div class="w-nav-button hamburger">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+    <div class="w-container banner-container" data-ix="fade-on-scroll">
+      <div class="text-wrapper">
+        <h1 class="white bann" data-ix="from-left-on-load">Organize your life</h1>
+      </div>
+      <div class="iphone-ipad" data-ix="up-down"><img width="650" src="images/screenshot.png">
+      </div>
+    </div>
+    <p class="white further" data-ix="from-left-on-load" id='downloadButton'>
+      <a class="w-inline-block btn-ico" href="http://app.stoat.co">
+        <span class="btn-img"><img width="23" src="images/ico2.png">
+        </span>
+        <span class="btn-text">Start asking</span>
+      </a>
+    </p>
+    <nav class="w-hidden-medium w-hidden-small w-hidden-tiny dots-wrapper">
+      <div class="w-clearfix" data-ix="show-navigation-text">
+        <a class="w-inline-block dots" href="#home"></a>
+        <div class="nav-text" data-ix="move-right-on-load">Home</div>
+      </div>
+      <div class="w-clearfix" data-ix="show-navigation-text">
+        <a class="w-inline-block dots" href="#about"></a>
+        <div class="nav-text" data-ix="move-right-on-load">About</div>
+      </div>
+      <div class="w-clearfix" data-ix="show-navigation-text">
+        <a class="w-inline-block dots" href="#contact"></a>
+        <div class="nav-text" data-ix="move-right-on-load">Contact</div>
+      </div>
+    </nav>
+  </header>
+  <h1 class='Closer' id="about">Meet Sen</h1>
+  <p class='tagline'>The world's most helpful stoat</p>
+  <div class="picture"><img class="picture" width="618" src="images/screens@2x.png">
+    <p class='tagline'>Sen can organize events for you, find things to do, and much more &hellip; just ask</p>
+  </div>
+  <section class="w-section subscribe-section">
+    <div class="w-container">
+      <div class="tittle-wrapper">
+        <h2 class="white">Interested in learning more?</h2>
+      </div>
+      <div class="call-to-action">
+        <div class="w-form">
+          <form id="email-form" name="email-form" data-name="Email Form">
+            <input class="w-input email-field" id="Email" type="email" placeholder="Your Email" name="Email" data-name="Email" required="required">
+            <input class="w-button notify-btn" type="submit" value="Sign me up!" data-wait="Welcome to the club..." wait="Welcome to the club...">
+            <div class="spam-text"><em>We promise we won't spam you! You'll only hear about new features and cool stuff.</em>
+            </div>
+          </form>
+          <div class="w-form-done sing-succ">
+            <p class="p-suc s">Thank you! Your submission has been received!</p>
+          </div>
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form :(</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-section contact-section" id="contact">
+    <div class="w-container contact-continer">
+      <div class="tittle-wrapper" id='contactHeader'>
+        <h4 class="small-tittle">LET’S TALK.</h4>
+        <h2 class="">We'd love to get your feedback!</h2>
+      </div>
+      <div class="contact-form">
+        <div class="modal-singup contact-form">
+          <div class="signup-form">
+            <div class="w-form">
+              <form id="email-form" name="email-form" data-name="Email Form">
+                <input class="w-input singup-field" id="Name-3" type="text" placeholder="Name" name="Name" data-name="Name" required="required">
+                <input class="w-input singup-field" id="email-3" type="email" placeholder="Email" name="email-3" data-name="Email 3" required="required">
+                <input class="w-input singup-field" id="Subject-2" type="text" placeholder="Subject" name="Subject-2" data-name="Subject 2">
+                <textarea class="w-input singup-field area" id="Text-Area-2" placeholder="Type Message" name="Text-Area-2" data-name="Text Area 2" required="required"></textarea>
+                <input class="w-button notify-btn sign-btn" type="submit" value="submit message" data-wait="Please wait...">
+              </form>
+              <div class="w-form-done success">
+                <p class="p-suc">Thank you! Your submission has been received!</p>
+              </div>
+              <div class="w-form-fail error">
+                <p class="p-suc err">Oops! Something went wrong while submitting the form :(</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-clearfix twitter">
+      <a href='https://twitter.com/stoatHQ' target='_blank'>
+        <img class="twitter-link" width="30" src="images/twitter.svg">
+      </a>
+    </div>
+    <div class="go-top">
+      <a class="w-inline-block top-button" href="#home"><img width="15" src="images/arrow.png">
+      </a>
+    </div>
+  </section>
+  <div class="w-section small-footer">
+    <div class="w-container">
+      <div class="copyright">
+        <p class="copy">Made with</p>
+        <div class="heart-ico" data-ix="herat-beat"><img class="heart" width="25" src="images/solid-black-heart.svg">
+        </div>
+        <p class="copy">by Kinga Corp.&nbsp;© 2015</p>
+      </div>
+    </div>
+  </div>
+  <script type='text/javascript'>
+    if (/iPhone/i.test(navigator.userAgent)) {
+      var button = document.getElementById('downloadButton');
+      var html = '<a class="w-inline-block btn-ico" href="itms-services://?action=download-manifest&amp;url=http://stoat.co/builds/stoatinfo.plist"><span class="btn-img"><img width="23" src="images/ico1.png"></span><span class="btn-text">Download</span></a>';
+      button.innerHTML = html;
+    }
+  </script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+</html>
