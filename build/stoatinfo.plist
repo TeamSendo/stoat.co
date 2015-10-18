@@ -11,19 +11,19 @@
                                         <key>kind</key>
                                         <string>software-package</string>
                                         <key>url</key>
-                                        <string>https://s3.amazonaws.com/sendo-builds/Sendo-iOS-0.1.6.ipa</string>
+                                        <string>https://stoat-builds.s3.amazonaws.com/latest.ipa</string>
                                 </dict>
                         </array>
                         <key>metadata</key>
                         <dict>
                                 <key>bundle-identifier</key>
-                                <string>KS.Sendo-iOS</string>
+                                <string>kc.Stoat</string>
                                 <key>bundle-version</key>
-                                <string>0.1.6</string>
+                                <string>1.0.0</string>
                                 <key>kind</key>
                                 <string>software</string>
                                 <key>title</key>
-                                <string>Sendo-iOS</string>
+                                <string>Stoat</string>
                         </dict>
                 </dict>
         </array>
