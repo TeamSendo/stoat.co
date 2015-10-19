@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <div class="install-tutorial">
+      <img src="images/installTutorial.png">
+  </div>
+  <script>
+    <script type="text/javascript">
+    ({pathFromBase: function(path, ext) {
+      var pixelRatio;
+      if (ext == null) {
+        ext = 'png';
+      }
+      pixelRatio = this.pixelRatio();
+      if (pixelRatio > 3) {
+        pixelRatio = 3;
+      }
+      if (pixelRatio >= 2) {
+        path += '@' + pixelRatio + 'x';
+      }
+      return path += '.' + ext;
+    }
+  });
+  </script>
+</html>

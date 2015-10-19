@@ -160,9 +160,12 @@
       </div>
     </div>
     <div class="w-clearfix twitter">
-      <a href='https://twitter.com/stoatHQ' target='_blank'>
-        <img class="twitter-link" width="30" src="images/twitter.svg">
+      <a href='https://twitter.com/stoatApp' target='_blank'>
+        <img class="twitter-link" width="50" src="images/buttonTwitter@2x.png">
+        <h2>Say hi! @StoatApp</h2>
+
       </a>
+
     </div>
     <div class="go-top">
       <a class="w-inline-block top-button" href="#home"><img width="15" src="images/arrow.png">
@@ -184,7 +187,33 @@
       var button = document.getElementById('downloadButton');
       var html = '<a class="w-inline-block btn-ico" href="itms-services://?action=download-manifest&amp;url=https://stoat-builds.s3.amazonaws.com/stoatinfo.plist"><span class="btn-img"><img width="23" src="images/ico1.png"></span><span class="btn-text">Download</span></a>';
       button.innerHTML = html;
+    } else if (/android/i.test(navigator.userAgent)) {
+      var button = document.getElementById('downloadButton');
+      var html = '<a class="w-inline-block btn-ico2" href="http://app.stoat.co/signup"><span class="btn-img"><img width="23" src="images/ico2.png"></span><span class="btn-text">Start Asking</span></a>';
+      button.innerHTML = html;
+    } else {
+      var button = document.getElementById('downloadButton');
+      var html = '<a class="w-inline-block btn-ico" href="http://app.stoat.co/signup"><span class="btn-img"><img width="50" src="images/iconsActive.png"></span><span class="btn-text">Start Asking</span></a>';
+      button.innerHTML = html;
     }
+  </script>
+  <script>
+    <script type="text/javascript">
+    ({pathFromBase: function(path, ext) {
+      var pixelRatio;
+      if (ext == null) {
+        ext = 'png';
+      }
+      pixelRatio = this.pixelRatio();
+      if (pixelRatio > 3) {
+        pixelRatio = 3;
+      }
+      if (pixelRatio >= 2) {
+        path += '@' + pixelRatio + 'x';
+      }
+      return path += '.' + ext;
+    }
+  });
   </script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
