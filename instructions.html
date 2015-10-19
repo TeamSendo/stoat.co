@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <div class="install-tutorial">
-      <img src="images/installTutorial.png">
-  </div>
-  <script>
-    <script type="text/javascript">
-    ({pathFromBase: function(path, ext) {
-      var pixelRatio;
-      if (ext == null) {
-        ext = 'png';
-      }
-      pixelRatio = this.pixelRatio();
-      if (pixelRatio > 3) {
-        pixelRatio = 3;
-      }
-      if (pixelRatio >= 2) {
-        path += '@' + pixelRatio + 'x';
-      }
-      return path += '.' + ext;
-    }
-  });
-  </script>
+  <title>iOS Instructions | Stoat</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/stoat.webflow.css">
+  </head>
+  <body style="background-color:#4a4a4a;padding-top:2em;text-align:center;">
+    <p><a class="w-inline-block btn-ico" href="itms-services://?action=download-manifest&amp;url=https://stoat-builds.s3.amazonaws.com/stoatinfo.plist"><span class="btn-img"><img width="23" src="images/ico1.png"></span><span class="btn-text">Download</span></a></p>
+    <div class="install-tutorial">
+        <img src="images/installTutorial.jpg" width='375'>
+    </div>
+    <p style='padding-bottom:2em;'><a class="w-inline-block btn-ico" href="itms-services://?action=download-manifest&amp;url=https://stoat-builds.s3.amazonaws.com/stoatinfo.plist"><span class="btn-img"><img width="23" src="images/ico1.png"></span><span class="btn-text">Download</span></a></p>
+  </body>
 </html>
