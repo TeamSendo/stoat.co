@@ -5,6 +5,9 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
+a {
+  text-decoration: none;
+}
 h1 {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -1385,5 +1388,15 @@ html.w-mod-js *[data-ix="slide-3"] {
     /*padding-left: 0px;*/
     /*float: right;*/
   }
+
 }
 
+.hi {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #3c8dc5;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
