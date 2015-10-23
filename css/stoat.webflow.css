@@ -5,6 +5,10 @@
 #featuresSmall h2 {
   font-size: 1.8rem;
 }
+#featuresSmall p {
+  font-size: 1.2em;
+  padding: 0 0.25em;
+}
 #featuresSmall .Feature {
   border-top: 1px solid #EBEBEB;
   padding-top: 1em;
