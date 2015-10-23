@@ -1,5 +1,31 @@
 #features {
+  border-top: 1px solid #EBEBEB;
+  padding: 1em 0;
+}
+#features h2 {
+  margin-bottom: 1em;
   text-align: center;
+}
+#features .col-right {
+  text-align: right !important;
+}
+#features .col-left {
+  text-align: left !important;
+}
+#features p {
+  display: inline-block;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-top: 120px;
+  width: 50%;
+}
+#features p span {
+  display: inline-block;
+  padding: 0 0.5em;
+  width: 60%;
+}
+.Light {
+  opacity: 0.5;
 }
 body {
   height: 100%;
@@ -70,7 +96,7 @@ p {
 }
 p.tagline {
   font-size: 18px;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   text-align: center;
 }
 p.further {
