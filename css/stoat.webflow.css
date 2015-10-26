@@ -1,3 +1,34 @@
+#downloadButton .btn-ico {
+  border: 2px solid white;
+  font-weight: normal;
+}
+#downloadButton .btn-text {
+  font-size: 14px;
+  font-weight: normal;
+}
+@media (min-width: 801px) {
+  #downloadButton {
+    padding-top: 2em;
+  }
+  #downloadButton .btn-text {
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+  } 
+}
+@media (min-width: 1401px) {
+  #downloadButton {
+    padding-top: 3em;
+  }
+  #downloadButton .btn-ico {
+    border: 3px solid white;
+  }
+  #downloadButton .btn-text {
+    font-size: 24px;
+    position: relative;
+    top: 3px;
+  }  
+}
 #featuresSmall {
   padding: 1em 0;
   text-align: center;
